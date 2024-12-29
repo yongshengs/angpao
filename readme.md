@@ -6,16 +6,12 @@ This is a simple command-line game that helps distribute money randomly across a
 - npm
 
 ## Setup 
-1. Unzip the project folder
-2. Open it in VSCode 
-3. Open up a terminal and navigate to the project directory
-4. Install dependencies by running the following:
+1. Clone this repository into your local machine / directory.
 
 Global dependencies
 - npm install -g typescript ts-node jest ts-jest
 
 Project dependencies
-- npm install
 - npm install --save-dev @types/node @types/jest jest @jest/globals ts-jest tsconfig-paths
 - npm install --save-dev @tsconfig/node20
 
@@ -25,7 +21,8 @@ Verify installations
 - npx jest --version
 
 ## Starting the program 
-1. Run 'npm start'
+1. Check that you're in the correct directory (should be /angpao), depending on which directory you cloned this repo to.
+2. Run 'npm start'
 - the program will provide instructions in the command line
 - follow the instructions to play the game
 
